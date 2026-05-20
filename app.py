@@ -3,7 +3,9 @@ import sqlite3
 import bcrypt
 
 app = Flask(__name__)
-app.secret_key = "secretkey"
+import os
+
+app.secret_key = os.urandom(24)
 
 # Database setup
 def init_db():
