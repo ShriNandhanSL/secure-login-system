@@ -1,2 +1,1 @@
-# secure-login-system
 A secure login web application built using Flask that implements user authentication with hashed passwords, input validation, and session management to protect against common security threats.
